@@ -1,4 +1,26 @@
-site_name: My Docs
+site_name: Fitness Stats Bot
+repo_url: https://github.com/HomerAyuste/fitness-stats-bot-for-discord-powered-by-strava
+repo_name: Fitness Stats Bot for Discord
+site_description: Fitness Stats Bot is a social Discord bot that provides fitness statistics and graphs to you, your friends, and your fellow server members. 
 theme:
-  name: material
+  name: 'material'
+  custom_dir: docs/overrides
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 copyright: Fitness Stats Bot is not affiliated with Strava
